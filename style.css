@@ -17,7 +17,7 @@ body {
 .top-bar {
   display: flex;
   justify-content: flex-start;
-  gap: 30px
+  gap: 30px;
   padding: 8px 30px;
   background-color: #1e1b4b;
   color: #ffffff;
@@ -27,5 +27,26 @@ body {
   display: flex;
   align-items: center;
   gap: 6px;
+}  
+.header {
+  display: flex;
+  justify-content: space-between;
+  aling-items: center;
+  padding: 20px 30px;
+  border-bottom: 1px solid #e1e1e1;
+} 
+.logo span {
+  font-size: 20px;
+  font-weight: bold;
+  color: #1e1b4b;
 }
+.nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #475569;
+  font-size: 14px;
+}
+
+
+
   
