@@ -130,13 +130,15 @@ body {
 body {
   background-color: #f3f0ff;
   color: #2c2c54;
+}
   .header{
     display: flex;
     justify-content: space-between;
-    aling-items: center;
-    padding: 20px 30 px;
+    align-items: center;
+    padding: 15px 25px;
     background-color: #ffffff;
     border-bottom: 1px solid #e1e1e1;
+    gap: 10px;
   }
   .nav {
     display: flex;
