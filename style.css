@@ -256,11 +256,11 @@ body {
   background-color: #14ed8 !important;
 } 
 .hero-image-container {
-  poxition: relative;
+  position: relative !important;
   display: inline-block;
   max-width: 450px;
   border-radius: 20px;
-  overflow: hidden;
+  overflow: visible !important;
 }
 .hero-image-container img {
   width: 100%;
@@ -273,35 +273,35 @@ body {
     display: inline-block;
   }
 .badge-card {
-  pozition: absolute;
-  background: rgba(255, 255, 0.9);
+  pozition: absolute !important;
+  background: rgba(255, 255, 255, 0.95) !important;
   backdrop-filter: blur(8px);
-  padding: 8px 14px;
-  border-radius: 12px;
+  padding: 10px 16px;
+  border-radius: 14px;
   display:flex;
   aling-items: center;
   gap: 10px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0,0.1);
-  font-family: 'Inter', sans-serif;
+  box-shadow: 0 8px 25px rgba(0, 0, 0,0.1);
+  z-index: 10;
 }
 .badge-card strong {
   display:block;
-  font-size: 12px;
+  font-size: 13px;
   color: #1e293b;
   font-weight:600;
 }
 .badge-card small {
   display: block;
-  font-size: 10px;
-  color: #6478b;
+  font-size: 11px;
+  color: #64748b;
 }
 .badge-top {
-  top: 20px;
-  right: 20px;
+  top: 25px !important;
+  right: 25px !important;
 }
 .badge-bottom {
-  bottom: 20px;
-  left: 20px;
+  bottom: 25px !important;
+  left: 25px !important;
 }
   
   
