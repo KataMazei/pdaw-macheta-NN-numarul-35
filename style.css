@@ -257,10 +257,9 @@ body {
 } 
 .hero-image-container {
   position: relative !important;
-  display: inline-block;
-  max-width: 450px;
-  border-radius: 20px;
-  overflow: visible !important;
+  display: inline-block !important;
+  max-width: 450px !important;
+  border-radius: 20px !important;
 }
 .hero-image-container img {
   width: 100%;
