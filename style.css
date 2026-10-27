@@ -383,7 +383,21 @@ body {
   color: #64748b;
   line-height: 1.4;
 }
-
+header, .header {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+.top-bar, .header-top {
+  background-color: #1e1b4b !important;
+  color: #ffffff !important;
+  width: 100% !important;
+}
+.top-bar a, .header-top a {
+  color: #cbd5e1 !important;
+}
 
 
   
