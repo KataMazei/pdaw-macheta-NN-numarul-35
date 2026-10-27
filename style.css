@@ -13,4 +13,19 @@ body {
   max-width: 960px;
   margin: 0 auto;
   background-color: #ffffff;
+} 
+.top-bar {
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px
+  padding: 8px 30px;
+  background-color: #1e1b4b;
+  color: #ffffff;
+  font-size: 13px;
 }
+.top-phone, .top-email {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+  
