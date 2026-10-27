@@ -38,7 +38,7 @@ body {
 .logo span {
   font-size: 20px;
   font-weight: bold;
-  color: #1e1b4b;
+  color: #4f46e5; 
 }
 .nav a {
   margin: 0 15px;
@@ -127,7 +127,27 @@ body {
   max-width: 500px;
   margin-bottom: 20px;
 }
-  
+body {
+  background-color: #f3f0ff;
+  color: #2c2c54;
+  .header{
+    display: flex;
+    justify-content: space-between;
+    aling-items: center;
+    padding: 20px 30 px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e1e1e1;
+  }
+  .nav {
+    display: flex;
+    gap: 20px;
+  }
+  .nav a {
+    text-decoration: none;
+    color: #475569;
+    font-weight: 500;
+    font-size: 14px;
+  }
   
   
   
