@@ -302,7 +302,21 @@ body {
   bottom: 25px !important;
   left: 25px !important;
 }
-  
+ .logo {
+   display: flex;
+   aling-items: center;
+   gap: 8px;
+   font-size: 20px;
+   font-weight: 700;
+   color: #1e293b;
+   text-decoration: none;
+ }
+.logo-blue {
+  color: #2563eb !important;
+}
+.logo-icon {
+  font-size: 18px;
+}
   
   
 
