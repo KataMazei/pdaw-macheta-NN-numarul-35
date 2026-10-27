@@ -254,6 +254,19 @@ body {
 }
 .btn-reservation:hover {
   background-color: #14ed8 !important;
+} 
+.hero-image-container {
+  poxition: relative;
+  display: inline-block;
+  max-width: 450px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.hero-image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 20px;
 }
   
   
