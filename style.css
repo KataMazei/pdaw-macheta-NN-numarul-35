@@ -194,9 +194,9 @@ body {
 }
      
 .header {
-  background-color: #ffffff;
-  border-bottom: 1px solid #e2e8f0;
-  width: 100% 
+  background-color: trnsparent !important;
+  border: none !important;
+  box-shadow: none !important;
 }
       .header-top {
       background-color: #1e293b;
@@ -317,7 +317,10 @@ body {
 .logo-icon {
   font-size: 18px;
 }
-  
+  .top-bar, .header-top {
+    background-color: #1e1b4b !important;
+    color: #ffffff !important;
+  }
   
 
 
