@@ -181,17 +181,23 @@ body {
   font-size: 14px;
   color: #6e6e9e;
 }
-    .header-top {
+     
+.header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e2e8f0;
+  width: 100% 
+}
+      .header-top {
       background-color: #1e293b;
       color: #94a3b8;
       font-size: 13px;
       padding: 8px 0;
       width: 100%;
     }
-.header-top-container {
+.header-top-content {
   display: flex;
-  justify-content: flex-end;
-  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
