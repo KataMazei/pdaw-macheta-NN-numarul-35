@@ -321,7 +321,20 @@ body {
     background-color: #1e1b4b !important;
     color: #ffffff !important;
   }
-  
+  .how-it-works {
+    padding: 80px 0;
+    background-color: #f8fafc;
+  }
+.how-container {
+  max-width: 1200px;
+  margin: o auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  aling-items: center;
+  gap: 50px;
+}
+.how-text-content {
 
 
 
