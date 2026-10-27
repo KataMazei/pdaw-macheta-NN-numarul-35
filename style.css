@@ -149,7 +149,39 @@ body {
     color: #475569;
     font-weight: 500;
     font-size: 14px;
+  } 
+.hero {
+  display: flex;
+  aling-items: center;
+  justify-content: space-between;
+  padding: 40px 50px;
+  gap: 40px;
+}
+.hero-text {
+  max-width: 500px;
+}  
+  .hero-image img {
+    width: 390px;
+    height: auto;
+    border-radius: 20px;
+    object-fit: cover;
   }
+.hero-stats {
+  display: flex; 
+  gap: 30px;
+  margin-top: 30px;
+}
+.stat-item h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2c2c54;
+  margin-bottom: 5px;
+}
+.stat-item p {
+  font-size: 14px;
+  color: #6e6e9e;
+}
+    
   
   
   
