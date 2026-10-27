@@ -152,7 +152,7 @@ body {
   } 
 .hero {
   display: flex;
-  aling-items: center;
+  align-items: center;
   justify-content: space-between;
   padding: 40px 50px;
   gap: 40px;
