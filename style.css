@@ -241,7 +241,20 @@ body {
   font-weight: 600;
   font-size: 14px;
 }
-
+.btn-reservation {
+  display: initial-block !important;
+  background-color: #2563eb !important;
+  color: #fffffd4f !important;
+  padding: 10px 20 px !important;
+  border-radius: 8px !important;
+  text-decoration: none !important;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.2;
+}
+.btn-reservation:hover {
+  background-color: #14ed8 !important;
+}
   
   
   
