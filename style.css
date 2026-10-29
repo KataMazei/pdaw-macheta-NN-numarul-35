@@ -29,7 +29,7 @@ body {
   gap: 6px;
 }  
 .header-main {
-  max-width: 1200px;
+  max-width: 960px;
   margin: 0 auto;
   padding: 15px 20px;
   display: flex;
@@ -209,7 +209,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1200px;
+  max-width: 960px;
   margin: 0 auto;
   padding: 0 20px;
   width: 100%;
@@ -326,7 +326,7 @@ body {
     background-color: #f8fafc;
   }
 .how-container {
-  max-width: 1200px;
+  max-width: 960px;
   margin: 0 auto;
   padding: 0 20px;
   display: flex;
