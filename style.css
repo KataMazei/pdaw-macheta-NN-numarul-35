@@ -64,11 +64,11 @@ body {
   color: #475569;
   font-size: 15px;
   font-weight: 500;
-} 
-.nav a:hover 
-  .nav a.active {
+}
+    .nav a:hover,
+.nav a.active {
   color: #afbddb;
-  }
+}
 
 .btn-reservation {
   background-color:#2563eb;
